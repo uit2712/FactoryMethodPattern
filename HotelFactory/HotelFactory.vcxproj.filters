@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Creators">
+      <UniqueIdentifier>{08099432-b29f-4220-b50a-fd63122b1902}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Products">
+      <UniqueIdentifier>{df91088b-a410-4629-9b42-40fcc1217b91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ConcreteProducts">
+      <UniqueIdentifier>{34a78b7c-272f-47ff-b249-37b157d3ffcb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ConcreteCreators">
+      <UniqueIdentifier>{2a24b5ce-db03-4084-9f8c-d507c6efe1bf}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NormalHotel.h">
+      <Filter>Creators</Filter>
+    </ClInclude>
+    <ClInclude Include="Hotel.h">
+      <Filter>Products</Filter>
+    </ClInclude>
+    <ClInclude Include="Room.h">
+      <Filter>Products</Filter>
+    </ClInclude>
+    <ClInclude Include="Toilet.h">
+      <Filter>Products</Filter>
+    </ClInclude>
+    <ClInclude Include="Bed.h">
+      <Filter>Products</Filter>
+    </ClInclude>
+    <ClInclude Include="Television.h">
+      <Filter>Products</Filter>
+    </ClInclude>
+    <ClInclude Include="AirConditioner.h">
+      <Filter>Products</Filter>
+    </ClInclude>
+    <ClInclude Include="GoldPlatedToilet.h">
+      <Filter>ConcreteProducts</Filter>
+    </ClInclude>
+    <ClInclude Include="BinhMinhHotel.h">
+      <Filter>ConcreteCreators</Filter>
+    </ClInclude>
+    <ClInclude Include="LG55InchTV.h">
+      <Filter>ConcreteProducts</Filter>
+    </ClInclude>
+    <ClInclude Include="IronwoodBed.h">
+      <Filter>ConcreteProducts</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HotelFactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NormalHotel.cpp">
+      <Filter>Creators</Filter>
+    </ClCompile>
+    <ClCompile Include="Hotel.cpp">
+      <Filter>Products</Filter>
+    </ClCompile>
+    <ClCompile Include="Room.cpp">
+      <Filter>Products</Filter>
+    </ClCompile>
+    <ClCompile Include="Toilet.cpp">
+      <Filter>Products</Filter>
+    </ClCompile>
+    <ClCompile Include="Bed.cpp">
+      <Filter>Products</Filter>
+    </ClCompile>
+    <ClCompile Include="Television.cpp">
+      <Filter>Products</Filter>
+    </ClCompile>
+    <ClCompile Include="AirConditioner.cpp">
+      <Filter>Products</Filter>
+    </ClCompile>
+    <ClCompile Include="GoldPlatedToilet.cpp">
+      <Filter>ConcreteProducts</Filter>
+    </ClCompile>
+    <ClCompile Include="BinhMinhHotel.cpp">
+      <Filter>ConcreteCreators</Filter>
+    </ClCompile>
+    <ClCompile Include="LG55InchTV.cpp">
+      <Filter>ConcreteProducts</Filter>
+    </ClCompile>
+    <ClCompile Include="IronwoodBed.cpp">
+      <Filter>ConcreteProducts</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
